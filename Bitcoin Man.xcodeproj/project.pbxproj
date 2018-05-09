@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FFAE5286202467CD008BBE1F /* Coin Man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Man.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAE5286202467CD008BBE1F /* Bitcoin Man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Man.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAE5289202467CD008BBE1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFAE528B202467CD008BBE1F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		FFAE528D202467CD008BBE1F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		FFAE527D202467CD008BBE1F = {
 			isa = PBXGroup;
 			children = (
-				FFAE5288202467CD008BBE1F /* Coin Man */,
+				FFAE5288202467CD008BBE1F /* Bitcoin Man */,
 				FFAE5287202467CD008BBE1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		FFAE5287202467CD008BBE1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFAE5286202467CD008BBE1F /* Coin Man.app */,
+				FFAE5286202467CD008BBE1F /* Bitcoin Man.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FFAE5288202467CD008BBE1F /* Coin Man */ = {
+		FFAE5288202467CD008BBE1F /* Bitcoin Man */ = {
 			isa = PBXGroup;
 			children = (
 				FFAE5289202467CD008BBE1F /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				FFAE5298202467CD008BBE1F /* LaunchScreen.storyboard */,
 				FFAE529B202467CD008BBE1F /* Info.plist */,
 			);
-			path = "Coin Man";
+			path = "Bitcoin Man";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FFAE5285202467CD008BBE1F /* Coin Man */ = {
+		FFAE5285202467CD008BBE1F /* Bitcoin Man */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFAE529E202467CD008BBE1F /* Build configuration list for PBXNativeTarget "Coin Man" */;
+			buildConfigurationList = FFAE529E202467CD008BBE1F /* Build configuration list for PBXNativeTarget "Bitcoin Man" */;
 			buildPhases = (
 				FFAE5282202467CD008BBE1F /* Sources */,
 				FFAE5283202467CD008BBE1F /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "Coin Man";
+			name = "Bitcoin Man";
 			productName = "Coin Man";
-			productReference = FFAE5286202467CD008BBE1F /* Coin Man.app */;
+			productReference = FFAE5286202467CD008BBE1F /* Bitcoin Man.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FFAE5281202467CD008BBE1F /* Build configuration list for PBXProject "Coin Man" */;
+			buildConfigurationList = FFAE5281202467CD008BBE1F /* Build configuration list for PBXProject "Bitcoin Man" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFAE5285202467CD008BBE1F /* Coin Man */,
+				FFAE5285202467CD008BBE1F /* Bitcoin Man */,
 			);
 		};
 /* End PBXProject section */
@@ -286,8 +286,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Coin Man/Info.plist";
+				DEVELOPMENT_TEAM = JJ959HS3K6;
+				INFOPLIST_FILE = "$(SRCROOT)/Bitcoin Man/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Coin-Man.Coin-Man";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,8 +302,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Coin Man/Info.plist";
+				DEVELOPMENT_TEAM = JJ959HS3K6;
+				INFOPLIST_FILE = "$(SRCROOT)/Bitcoin Man/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Coin-Man.Coin-Man";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -313,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FFAE5281202467CD008BBE1F /* Build configuration list for PBXProject "Coin Man" */ = {
+		FFAE5281202467CD008BBE1F /* Build configuration list for PBXProject "Bitcoin Man" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFAE529C202467CD008BBE1F /* Debug */,
@@ -322,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFAE529E202467CD008BBE1F /* Build configuration list for PBXNativeTarget "Coin Man" */ = {
+		FFAE529E202467CD008BBE1F /* Build configuration list for PBXNativeTarget "Bitcoin Man" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFAE529F202467CD008BBE1F /* Debug */,
